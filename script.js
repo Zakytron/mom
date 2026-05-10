@@ -239,7 +239,7 @@ function initTypewriter() {
        new Date(año, mes-1, día)
    ══════════════════════════════════════════════════════════ */
 function initCounter() {
-  const birthDate = new Date(2008, 6, 3); // ← EDITA ESTA LÍNEA
+  const birthDate = new Date(2008, 5, 3); // ← EDITA ESTA LÍNEA
   const today     = new Date();
   let y = today.getFullYear() - birthDate.getFullYear();
   let m = today.getMonth()    - birthDate.getMonth();
