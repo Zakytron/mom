@@ -292,4 +292,31 @@ document.addEventListener('DOMContentLoaded', () => {
   initCounter();
   initScrollAnimations();
   initSurprise();
+
+// Música de fondo
+const music  = document.getElementById('bgMusic');
+const musBtn = document.getElementById('musicBtn');
+let playing  = false;
+
+musBtn.addEventListener('click', () => {
+  if (playing) {
+    music.pause();
+    musBtn.textContent = '🔇';
+  } else {
+    music.play();
+    musBtn.textContent = '🔊';
+  }
+  playing = !playing;
+});
+
+// Pantalla de bienvenida
+const welcomeScreen = document.getElementById('welcomeScreen');
+document.getElementById('welcomeBtn').addEventListener('click', () => {
+  music.play().catch(() => {});
+  musBtn.textContent = '🔊';
+  playing = true;
+  welcomeScreen.classList.add('hidden');
+  setTimeout(() => welcomeScreen.remove(), 800);
+});
+
 });
