@@ -478,3 +478,30 @@ body {
     padding: 2.5rem 1.5rem 1.5rem;
   }
 }
+
+/* ── BOTÓN WHATSAPP ───────────────────────────────────────── */
+.whatsapp-section {
+  text-align: center;
+  padding: 0.5rem 1.5rem 1.5rem;
+}
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 0.95rem 2.2rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  box-shadow: 0 4px 22px rgba(37,211,102,0.38);
+  transition: transform 0.2s, box-shadow 0.2s;
+  touch-action: manipulation;
+}
+.whatsapp-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px rgba(37,211,102,0.5);
+}
+.whatsapp-btn:active { transform: scale(0.96); }
