@@ -9,20 +9,20 @@
        Puedes añadir o quitar objetos de este array.
    ══════════════════════════════════════════════════════════ */
 const PHOTOS = [
-  { src: 'Resources/1.jpg' },
+  { src: 'Resources/1.JPG' },
   { src: 'Resources/2.jpg' },
   { src: 'Resources/3.jpg' },
   { src: 'Resources/4.jpg' },
   { src: 'Resources/5.jpg' },
   { src: 'Resources/6.jpg' },
   { src: 'Resources/7.jpg' },
-  { src: 'Resources/8.jpg' },
+  { src: 'Resources/8.JPG' },
   { src: 'Resources/9.jpg' },
   { src: 'Resources/10.jpg' },
   { src: 'Resources/11.jpg' },
   { src: 'Resources/12.jpg' },
   { src: 'Resources/13.jpg' },
-  { src: 'Resources/14.jpg' },
+  { src: 'Resources/14.JPG' },
   { src: 'Resources/15.jpg' },
   { src: 'Resources/16.jpg' },
   { src: 'Resources/17.jpg' },
