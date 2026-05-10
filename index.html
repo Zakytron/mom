@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <title>Feliz Día, Mamá 🌸</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <div class="petal-bg" id="petals"></div>
+
+  <div class="page">
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="heart-pulse">🌸</div>
+      <h1 class="greeting">Feliz Día, Mamá</h1>
+      <p class="subtitle">Para la mujer que me enseñó todo lo que importa</p>
+    </div>
+
+    <!-- MÁQUINA DE ESCRIBIR -->
+    <div class="typewriter-block">
+      <div id="typewriter-text"><span class="cursor"></span></div>
+    </div>
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <!-- CINTA DE CINE -->
+    <div class="film-section">
+      <p class="film-section-title">Nuestros recuerdos en película</p>
+
+      <!-- Controles -->
+      <div class="film-controls">
+        <button class="film-ctrl-btn" id="btnPrev" aria-label="Anterior">&#8592;</button>
+        <button class="film-ctrl-btn" id="btnPause" aria-label="Pausar">⏸</button>
+        <button class="film-ctrl-btn" id="btnPlay"  aria-label="Reproducir" style="display:none">▶</button>
+        <button class="film-ctrl-btn" id="btnNext" aria-label="Siguiente">&#8594;</button>
+      </div>
+
+      <div class="film-track-wrap" id="filmTrack">
+        <div class="film-strip" id="filmStrip">
+          <!-- Fotogramas generados por JS -->
+        </div>
+      </div>
+    </div>
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <!-- LÍNEA DE TIEMPO -->
+    <div class="timeline" style="margin-top:1.5rem">
+      <p class="section-title">Nuestra historia juntos</p>
+
+      <div class="tl-item" data-delay="0">
+        <div class="tl-dot">👶</div>
+        <div class="tl-content">
+          <div class="tl-year">El comienzo</div>
+          <div class="tl-text">El día que nací, ya tenía la mejor guía del mundo sin saberlo.</div>
+        </div>
+      </div>
+      <div class="tl-item" data-delay="100">
+        <div class="tl-dot">📚</div>
+        <div class="tl-content">
+          <div class="tl-year">Los primeros pasos</div>
+          <div class="tl-text">Me enseñaste a caminar, leer, y a nunca rendirme cuando algo se ponía difícil.</div>
+        </div>
+      </div>
+      <div class="tl-item" data-delay="200">
+        <div class="tl-dot">🌧</div>
+        <div class="tl-content">
+          <div class="tl-year">Los días difíciles</div>
+          <div class="tl-text">Estuviste ahí en cada caída. No solo para levantarme, sino para enseñarme a levantarme sola.</div>
+        </div>
+      </div>
+      <div class="tl-item" data-delay="300">
+        <div class="tl-dot">🎉</div>
+        <div class="tl-content">
+          <div class="tl-year">Las celebraciones</div>
+          <div class="tl-text">Cada logro mío siempre fue tuyo también. Tu orgullo fue siempre mi mayor premio.</div>
+        </div>
+      </div>
+      <div class="tl-item" data-delay="400">
+        <div class="tl-dot">💛</div>
+        <div class="tl-content">
+          <div class="tl-year">Hoy</div>
+          <div class="tl-text">Hoy y siempre, seguiré siendo tu hijo y tú mi ejemplo más hermoso.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <!-- CONTADOR -->
+    <div class="counter-section">
+      <p class="counter-label">Cuánto tiempo llevamos construyendo recuerdos juntos</p>
+      <div class="counter-nums">
+        <div class="counter-item">
+          <span class="counter-num" id="cnt-years">—</span>
+          <span class="counter-sub">años</span>
+        </div>
+        <div class="counter-item">
+          <span class="counter-num" id="cnt-months">—</span>
+          <span class="counter-sub">meses</span>
+        </div>
+        <div class="counter-item">
+          <span class="counter-num" id="cnt-days">—</span>
+          <span class="counter-sub">días</span>
+        </div>
+      </div>
+      <p class="counter-note">
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <!-- 10 COSAS -->
+    <div class="things-section" style="margin-top:1.5rem">
+      <p class="section-title">10 cosas que aprendí de ti</p>
+      <div class="things-grid">
+        <div class="thing-card" data-delay="0"><div class="thing-num">01</div><div class="thing-text">Que el amor verdadero no necesita palabras para demostrarse</div></div>
+        <div class="thing-card" data-delay="80"><div class="thing-num">02</div><div class="thing-text">Que una comida caliente puede curar casi cualquier cosa</div></div>
+        <div class="thing-card" data-delay="160"><div class="thing-num">03</div><div class="thing-text">Que la fuerza más grande no es la que se ve, es la que se siente</div></div>
+        <div class="thing-card" data-delay="240"><div class="thing-num">04</div><div class="thing-text">Que pedir perdón a tiempo vale más que tener razón</div></div>
+        <div class="thing-card" data-delay="320"><div class="thing-num">05</div><div class="thing-text">Que la paciencia es un superpoder y tú lo tienes</div></div>
+        <div class="thing-card" data-delay="400"><div class="thing-num">06</div><div class="thing-text">Que trabajar duro y con honestidad siempre vale la pena</div></div>
+        <div class="thing-card" data-delay="480"><div class="thing-num">07</div><div class="thing-text">Que una sonrisa puede cambiar el día de cualquier persona</div></div>
+        <div class="thing-card" data-delay="560"><div class="thing-num">08</div><div class="thing-text">Que cuidar a los demás es la forma más bonita de vivir</div></div>
+        <div class="thing-card" data-delay="640"><div class="thing-num">09</div><div class="thing-text">Que la familia siempre, siempre, es lo primero</div></div>
+        <div class="thing-card" data-delay="720"><div class="thing-num">10</div><div class="thing-text">Que yo soy quien soy gracias a ti. Y eso me llena de orgullo</div></div>
+      </div>
+    </div>
+
+    <div class="divider">✦ ✦ ✦</div>
+
+    <!-- CARTA -->
+    <div class="letter-section" style="margin-top:1.5rem">
+      <div class="letter-card">
+        <p class="letter-text">
+          Mamá, hay palabras que nunca he sabido decirte en voz alta, así que hoy las escribo.<br><br>
+          Gracias por las noches que no dormiste para que yo estuviera bien. Gracias por cada sacrificio
+          silencioso, por cada abrazo a tiempo y por cada regaño lleno de amor.<br><br>
+          Quisiera que supieras que aunque no siempre lo diga, pienso en todo lo que haces. Y que me
+          siento el/la más afortunado/a del mundo de tenerte.
+        </p>
+        <div class="letter-sign">Con todo mi amor 💛</div>
+      </div>
+    </div>
+
+    <!-- BOTÓN SORPRESA -->
+    <div class="surprise-section">
+      <button class="surprise-btn" id="surpriseBtn">💌 Haz clic aquí, mamá</button>
+      <div class="surprise-message" id="surprise-msg">
+        🌸 Mamá, cada vez que me miras todavía me siento el ser más amado del mundo.<br>
+        Gracias por existir. Gracias por ser tú, mi eterno PARARRAYOS.<br>
+        Te quiero hoy, mañana y siempre. 💛
+      </div>
+    </div>
+
+    <div class="footer-note">Hecho con amor · Feliz Día de la Madre 🌷</div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
